@@ -17,6 +17,12 @@
         <servlet-class>com.servlets.SecondServlet</servlet-class>
     </servlet>
     
+      <servlet>
+        <servlet-name>myservlet</servlet-name>
+        <servlet-class>com.practice.MyServlet</servlet-class>
+    </servlet>
+    
+    
     <!--mapping-->
     
     <servlet-mapping>
@@ -27,6 +33,11 @@
      <servlet-mapping>
         <servlet-name>second</servlet-name>
         <url-pattern>/second</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>myservlet</servlet-name>
+        <url-pattern>/myservlet</url-pattern>    
     </servlet-mapping>
     
     
